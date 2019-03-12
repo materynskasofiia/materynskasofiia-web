@@ -1,0 +1,222 @@
+nav .menu, footer .socialMedia .socialIcons {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around; }
+
+header {
+  padding: 10px;
+  background-color: #fafbfc; }
+  header .point {
+    display: inline-block; }
+
+.logo {
+  margin: 10px;
+  padding: 10px; }
+  .logo a {
+    border: 2px solid #6F9AB1;
+    padding: 10px;
+    font-size: 1.9em; }
+
+nav {
+  height: 100%; }
+  nav .menu {
+    height: 100%;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    nav .menu .point {
+      padding: 10px;
+      font-size: 1.1em; }
+      nav .menu .point:hover {
+        border-bottom: 2px solid #6F9AB1; }
+
+body .wrapper header {
+  display: grid;
+  grid-template-columns: repeat(12, 7%);
+  grid-gap: 1.45455%; }
+  body .wrapper header .logo {
+    grid-column: 1/3; }
+  body .wrapper header .navigation {
+    grid-column: 5/13; }
+
+body .wrapper .centerContent1 {
+  display: grid;
+  grid-template-columns: repeat(12, 7%);
+  grid-gap: 1.45455%; }
+  body .wrapper .centerContent1 .form {
+    grid-column: 4/10; }
+
+body .wrapper .centerContent2 {
+  display: grid;
+  grid-template-columns: repeat(12, 7%);
+  grid-gap: 1.45455%;
+  grid-template-rows: repeat(2, 400px); }
+  body .wrapper .centerContent2 #article1 {
+    grid-column: 1/4; }
+  body .wrapper .centerContent2 #article2 {
+    grid-column: 4/7; }
+  body .wrapper .centerContent2 #article3 {
+    grid-column: 7/10; }
+  body .wrapper .centerContent2 #article4 {
+    grid-column: 10/13; }
+  body .wrapper .centerContent2 #article5 {
+    grid-column: 1/5; }
+  body .wrapper .centerContent2 #article6 {
+    grid-column: 5/8; }
+  body .wrapper .centerContent2 #article7 {
+    grid-column: 8/13; }
+
+body .wrapper footer {
+  display: grid;
+  grid-template-columns: repeat(12, 7%);
+  grid-gap: 1.45455%; }
+  body .wrapper footer .socialMedia {
+    grid-column: 2/6; }
+  body .wrapper footer .contacts {
+    grid-column: 7/10; }
+  body .wrapper footer .information {
+    grid-column: 10/12; }
+
+footer {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fafbfc;
+  padding: 18px 12px 25px 12px; }
+  footer .socialMedia {
+    display: inline-block; }
+    footer .socialMedia .joinUs {
+      margin: 10px;
+      color: #6F9AB1;
+      font-size: 1.2em;
+      text-align: center;
+      font-size: 1.5em; }
+    footer .socialMedia .socialIcons a {
+      margin: 2px;
+      opacity: 0.3; }
+      footer .socialMedia .socialIcons a:hover {
+        opacity: 0.6; }
+  footer .contacts .contactUs {
+    margin: 10px;
+    color: #6F9AB1;
+    font-size: 1.2em; }
+  footer .information p {
+    margin: 10px;
+    color: #6F9AB1;
+    font-size: 1.2em; }
+    footer .information p a {
+      color: #6F9AB1; }
+      footer .information p a:hover {
+        color: #1e2e36; }
+
+.centerContent1 {
+  background-image: url("../img/simon-migaj-1140153-unsplash1.jpg");
+  background-position: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around; }
+  .centerContent1 .form {
+    background-color: white;
+    opacity: 0.9;
+    margin: 20px;
+    padding: 20px; }
+    .centerContent1 .form p {
+      border-bottom: 2px solid #6F9AB1;
+      padding-bottom: 5px;
+      font-size: 1.5em;
+      text-align: center; }
+    .centerContent1 .form .headerOfForm {
+      font-style: italic; }
+    .centerContent1 .form .country, .centerContent1 .form form {
+      margin: 10px; }
+      .centerContent1 .form .country p, .centerContent1 .form form p {
+        color: black; }
+    .centerContent1 .form .country, .centerContent1 .form .bottom {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+    .centerContent1 .form .bottom p {
+      padding: 10px 25px;
+      font-size: 1.2em;
+      background-color: #80a6ba; }
+      .centerContent1 .form .bottom p:hover {
+        background-color: #b1c8d5; }
+    .centerContent1 .form input, .centerContent1 .form select {
+      margin: 20px;
+      padding: 10px; }
+
+.centerContent2 {
+  margin: 20px;
+  padding: 20px; }
+  .centerContent2 .article {
+    margin: 10px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+        -ms-flex-align: end;
+            align-items: flex-end; }
+    .centerContent2 .article p {
+      background-color: white;
+      opacity: 0.0;
+      padding: 15px; }
+      .centerContent2 .article p:hover {
+        opacity: 0.7; }
+      .centerContent2 .article p span {
+        font-size: 1.5em;
+        line-height: 1.9em; }
+  .centerContent2 #article1 {
+    background-image: url("../img/aron-visuals-1186369-unsplash2.jpg");
+    background-position: center; }
+  .centerContent2 #article2 {
+    background-image: url("../img/mariano-colombotto-1366332-unsplash3.jpg");
+    background-position: center; }
+  .centerContent2 #article3 {
+    background-image: url("../img/ben-blennerhassett-300784-unsplash2.jpg");
+    background-position: center; }
+  .centerContent2 #article4 {
+    background-image: url("../img/simon-migaj-1140153-unsplash2.jpg");
+    background-position: center; }
+  .centerContent2 #article5 {
+    background-image: url("../img/michal-janek-1106585-unsplash3.jpg");
+    background-position: center; }
+  .centerContent2 #article6 {
+    background-image: url("../img/angel-origgi-1198705-unsplash1.jpg");
+    background-position: center; }
+  .centerContent2 #article7 {
+    background-image: url("../img/tim-marshall-1254041-unsplash2.jpg");
+    background-position: center; }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+ul {
+  list-style: none; }
+
+body {
+  background-color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif; }
+
+/*# sourceMappingURL=style.css.map */
