@@ -116,7 +116,7 @@ footer {
         color: #1e2e36; }
 
 .centerContent1 {
-  background-image: url("../img/simon-migaj-1140153-unsplash1.jpg");
+  background-image: url("../img_folder/simon-migaj-1140153-unsplash1.jpg");
   background-position: center;
   display: -webkit-box;
   display: -webkit-flex;
@@ -183,25 +183,25 @@ footer {
         font-size: 1.5em;
         line-height: 1.9em; }
   .centerContent2 #article1 {
-    background-image: url("../img/aron-visuals-1186369-unsplash2.jpg");
+    background-image: url("../img_folder/aron-visuals-1186369-unsplash2.jpg");
     background-position: center; }
   .centerContent2 #article2 {
-    background-image: url("../img/mariano-colombotto-1366332-unsplash3.jpg");
+    background-image: url("../img_folder/mariano-colombotto-1366332-unsplash3.jpg");
     background-position: center; }
   .centerContent2 #article3 {
-    background-image: url("../img/ben-blennerhassett-300784-unsplash2.jpg");
+    background-image: url("../img_folder/ben-blennerhassett-300784-unsplash2.jpg");
     background-position: center; }
   .centerContent2 #article4 {
-    background-image: url("../img/simon-migaj-1140153-unsplash2.jpg");
+    background-image: url("../img_folder/simon-migaj-1140153-unsplash2.jpg");
     background-position: center; }
   .centerContent2 #article5 {
-    background-image: url("../img/michal-janek-1106585-unsplash3.jpg");
+    background-image: url("../img_folder/michal-janek-1106585-unsplash3.jpg");
     background-position: center; }
   .centerContent2 #article6 {
-    background-image: url("../img/angel-origgi-1198705-unsplash1.jpg");
+    background-image: url("../img_folder/angel-origgi-1198705-unsplash1.jpg");
     background-position: center; }
   .centerContent2 #article7 {
-    background-image: url("../img/tim-marshall-1254041-unsplash2.jpg");
+    background-image: url("../img_folder/tim-marshall-1254041-unsplash2.jpg");
     background-position: center; }
 
 * {
